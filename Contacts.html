@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Typing Header</title>
+
+    <style>
+        header {
+            font-size: 65px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0px;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            background-color: black;
+        }
+
+        header h1 {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+
+            overflow: hidden;
+            white-space: nowrap;
+
+            border-right: 5px solid white;
+
+            width: 0;
+
+            animation:
+                typing 3.5s steps(19) forwards,
+                blink 0.8s infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 16ch;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+
+
+    <title>Document</title>
+
+    <style>
+        p {
+            font-size: 40px;
+            color: white;
+        }
+
+        nav {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            padding: 80px;
+
+            background-color: #daa520;
+            height: 60px;
+            border-radius: 8px;
+            transition: transform 0.4s ease;
+
+        }
+
+
+        img {
+            padding: 40px;
+        }
+
+        a {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 35px;
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: white;
+            font-size: 40px;
+        }
+
+        main {
+            font-weight: bold;
+            background-color: black;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header style="padding: 40px; border-radius: 4px;">
+        <h1>Work With me.</h1>
+    </header>
+
+    <nav>
+        <strong> <a href="Giacko.html">Home</a> </strong> |
+        <strong> <a href="About.html">About</a> </strong> |
+        <strong> <a href="Photos.html">Photos</a> </strong> |
+        <strong> <a href="Video.html">Video</a> </strong>
+    </nav>
+
+    <main>
+        <h2 style="color: white; font-family:'Courier New', Courier, monospace; font-size: 60px;">Contact options.</h2>
+        <strong><a href="https://www.instagram.com/giacomo.bilottaa/" style="color: white;">Instagram - Giacko</a></strong>
+        <p style="font-family: 'Courier New', Courier, monospace; font-size: 35px;">Telephone: +39 330997798</p>
+        <p style="font-family: 'Courier New', Courier, monospace; font-size: 35px;">e-mail: giacomo.bilotta@gmail.com</p>
+    </main>
+
+    <footer style="background-color: black; padding: 15px; border-radius: 8px; color: white;">
+        <p style="font-size: 20px;">&copy; 2026 Giacko | property of Saint Jacques.</p>
+    </footer>
+
+</body>

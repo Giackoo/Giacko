@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        header {
+            font-size: 65px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0px;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            background-color: black;
+        }
+
+        header h1 {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+
+            overflow: hidden;
+            white-space: nowrap;
+
+            border-right: 5px solid white;
+
+            width: 0;
+
+            animation:
+                typing 3s steps(10) forwards,
+                blink 0.8s infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 18ch;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+
+
+
+    <style>
+        p {
+            font-size: 40px;
+            color: white;
+        }
+
+        nav {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            padding: 80px;
+            background-color: #daa520;
+            height: 60px;
+            border-radius: 8px;
+            transition: transform 0.4s ease;
+
+        }
+
+        video {
+            padding: 20px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        img {
+            padding: 20px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: white;
+            font-size: 35px;
+        }
+
+        main {
+            background-color: black;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header style="padding: 40px; ">
+        <h1>The Work, Videos.</h1>
+    </header>
+
+
+    <nav>
+        <strong> <a href="Giacko.html">Home</a> </strong> |
+        <strong> <a href="About.html">About</a> </strong> |
+        <strong> <a href="Photos.html">Photos</a> </strong> |
+        <strong> <a href="Contacts.html">Contact me</a> </strong>
+    </nav>
+
+
+    <main>
+        <h2 style="color: white; font-family:'Courier New', Courier, monospace; font-size: 50px;">Nature Shots.</h2>
+
+        <div style=" display: flex; justify-content: center; padding: 20px;">
+            <video src="Video/IMG_1711.MOV.mp4" width="600" controls>il tuo browser non supporta il tipo di
+                video</video>
+            <video src="Video/IMG_2237.MOV.mp4" width="600" controls>il tuo browser non supporta il tipo di
+                video</video>
+        </div>
+
+        <h2 style="color: white; font-family:'Courier New', Courier, monospace; font-size: 50px;">Client Work.</h2>
+
+        <div style=" display: flex; justify-content: center;">
+            <video src="Video/copy_1C3C08A9-B319-41B5-836C-E9CCACD99183.mov.mp4" width="600" controls>il tuo browser non
+                supporta il tipo di video</video>
+            <video src="Video/copy_9D2DB425-A89A-4104-B761-51EA98F90CD1.mov.mp4" width="600" controls>il tuo browser non
+                supporta il tipo di video</video>
+        </div>
+
+
+    </main>
+
+
+    <footer style="background-color: black; padding: 15px; border-radius: 8px; color: white;">
+        <p style="font-size: 20px;">&copy; 2026 Giacko | property of Saint Jacques.</p>
+    </footer>
+
+
+
+</body>

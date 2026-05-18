@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        header {
+            font-size: 65px;
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0px;
+            height: 800px;
+            display: flex;
+            align-items: center;
+            background-color: black;
+        }
+
+        header h1 {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+
+            overflow: hidden;
+            white-space: nowrap;
+
+            border-right: 5px solid white;
+
+            width: 0;
+
+            animation:
+                typing 3s steps(10) forwards,
+                blink 0.8s infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 18ch;
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+
+
+
+    <style>
+
+        p {
+            font-size: 40px;
+            color: white;
+        }
+
+        nav{
+            font-family:'Courier New', Courier, monospace;
+            font-size: 30px;
+            padding: 80px;
+            background-color:#daa520;
+            height: 60px;
+            border-radius: 8px;
+            transition:transform 0.4s ease;
+            
+        }
+
+
+        img{
+            padding: 20px;
+            display:block;
+            margin-bottom:20px;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: white;
+            font-size: 35px;
+        }
+
+        main{
+            background-color: black; 
+            padding: 10px; 
+            margin-bottom: 10px; 
+            border-radius: 8px; 
+            text-align: center;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <header style="padding: 40px; ">
+        <h1>The Work, Photos.</h1>
+    </header>
+
+
+    <nav>
+        <strong> <a href= "Giacko.html">Home</a> </strong> | 
+        <strong> <a href= "About.html">About</a> </strong> |
+        <strong> <a href= "Video.html">Video</a> </strong> | 
+        <strong> <a href= "Contacts.html">Contact me</a> </strong>
+    </nav>
+
+
+    <main>
+        <h2 style="color: white; font-family:'Courier New', Courier, monospace; font-size: 50px;">Last Trip.</h2>
+
+        <div style=" display: flex; justify-content: center;">
+            <img src="Images/IMG_0802.png" height="1000" alt="alberi" title="Trees">
+            <img src="Images/IMG_0829.png" height="1000" alt="vicolo" title="Country">
+        </div>
+
+        <div style=" display: flex; justify-content: center;">
+            <img src="Images/IMG_0845.png" height="1000" alt="" title="">
+        </div>
+        
+        <div style=" display: flex; justify-content: center;">
+            <img src="Images/IMG_0883.png" height="1000" alt="" title="">
+        </div>
+
+        <h2 style="color: white; font-family:'Courier New', Courier, monospace; font-size: 50px;">Aestetic Photos.</h2>
+        
+        <div style=" display: flex; justify-content: center;">
+            <img src="Images/Documento.png" height="1000" alt="vista dalla finestra" title="window">
+        </div>
+
+        <div style=" display: flex; justify-content: center;">
+            <img src="Images/Audi R8 Sony.png" height="1000" alt="modellino audi r8" title="Audi">
+        </div>
+
+        <div style=" display: flex; justify-content: center;">
+            <img src="Images/Plant close up.png" height="1000" alt="foglie" title="Leafes">
+        </div>
+
+    </main>
+
+
+    <footer style="background-color: black; padding: 15px; border-radius: 8px; color: white;">
+        <p style="font-size: 20px;">&copy;  2026 Giacko | property of Saint Jacques.</p>
+    </footer>
+
+
+
+</body>
